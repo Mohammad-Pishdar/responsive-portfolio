@@ -22,3 +22,12 @@ body {
 .nav-link {
     color: #202d24;
 }
+.container {
+    width: 960;
+    background-color: #e8f0f3;
+    margin-top: 30px;
+}
+.img {
+    width: 150px;
+    height: 150px;
+}
