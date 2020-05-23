@@ -19,6 +19,7 @@
 footer {
     background-color:#5f7433;
     width: 100%;
+    position: absolute;
     bottom: 0;
     border-top: solid #bdc2c6 5px;
 }
@@ -30,4 +31,8 @@ footer {
 }
 body {
     background-image: url(images/background-paper.jpg);
+}
+.page-container {
+    position: relative;
+    min-height: 100vh;
 }
