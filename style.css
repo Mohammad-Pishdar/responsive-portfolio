@@ -1,3 +1,18 @@
 body {
     background-image: url(images/background-paper.jpg);
 }
+.navbar-brand {
+    background-color: #b0300b;
+    color: #25322b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 15px;
+}
+.navbar {
+    padding: 0;
+}
+.nav-item.contact {
+    margin-right: 40px;
+}
