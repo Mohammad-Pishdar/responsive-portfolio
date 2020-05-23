@@ -16,3 +16,6 @@ body {
 .nav-item.contact {
     margin-right: 40px;
 }
+.custom-nav {
+    background-color: #e8f0f3;
+}
