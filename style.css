@@ -43,9 +43,12 @@ body {
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #202d24;
-    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 0;
 }
 
-p {
-    line-height: 1.5em;
+hr {
+    border-width: 3px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
