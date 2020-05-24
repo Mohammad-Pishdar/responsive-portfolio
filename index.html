@@ -1,94 +1,114 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Mo Pishdar's Portfolio</title>
+    <style>
+        .container {
+            width: 75%;
+        }
 
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+        html {
+            position: relative;
+            min-height: 100%;
+        }
 
+        body {
+            margin-bottom: 60px;
+            /* Margin bottom by footer height */
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            /* Set the fixed height of the footer here */
+            line-height: 60px;
+            /* Vertically center the text there */
+            background-color: gray;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="page-container">
-        <!-- Start Nav -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-            <span class="navbar-brand mb-1 h1">Mo Pishdar</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav navbar-right ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- End Nav -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="page-header">
-                        <h1>About Me</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+        <a class="navbar-brand bg-info p-3 text-white" href="#">Mo Pishdar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Main content -->
+    <div class="container">
+        <h1 class="header">About Me</h1>
+        <hr>
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="images/myself.jpg" alt="A picture of me" class="img-thumbnail">
                     </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="images/myself.jpg" alt="a photo of myself" class="img-thumbnail">
-                        </div>
-                        <div class="col-md-9">
-                            <p>
-                                I am an aspiring web-developer who has recently completed the Coding Boot Camp as a
-                                collaboration between the University of Sydney and Trilogy Education Services as I was
-                                seeking a career change into the tech sector. I believe the skills that I have learned
-                                during the boot camp have completely enabled me to take on a challenge of working as a
-                                full-stack web developer. Since the start of my studies, I have dedicated all my free
-                                time
-                                to practice coding and to learn new web dev skills as they have been presented to us by
-                                our
-                                mentors. I hope I can continue being a learner of this amazing field of knowledge and
-                                hopefully someday contribute educating other newbies like myself to learn such
-                                life-changing
-                                skill.
-                            </p>
-                        </div>
+                    <div class="col-sm-9">
+                        <p>I am an aspiring web-developer who has recently completed the Coding Boot Camp as a
+                            collaboration between the University of Sydney and Trilogy Education Services as I was
+                            seeking a career change into the tech sector. I believe the skills that I have learned
+                            during the boot camp have completely enabled me to take on a challenge of working as a
+                            full-stack web developer. Since the start of my studies, I have dedicated all my free time
+                            to practice coding and to learn new web dev skills as they have been presented to us by our
+                            mentors. I hope I can continue being a learner of this amazing field of knowledge and
+                            hopefully someday contribute educating other newbies like myself to learn such life-changing
+                            skill. </p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer class="page-footer font-small blue">
-
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2020 Copyright
-
-            </div>
-            <!-- Copyright -->
-
-        </footer>
-        <!-- Footer -->
-
-        <!-- jQuery CDN -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-
-        <!-- Bootstrap JavaScript CDN -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </div>
+    <!-- End of main content  -->
+    <!-- Footer  -->
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-white">&copy;2020 Mo Pishdar Using Bootstrap</span>
+        </div>
+    </footer>
+    <!-- End of footer  -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
