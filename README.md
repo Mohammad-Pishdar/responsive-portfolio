@@ -34,7 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/Mohammad-Pishdar/responsive-portfolio/master/images/screenshot.jpg)
+[![Product Name Screen Shot][product-screenshot]]![alt text](https://github.com/Mohammad-Pishdar/responsive-portfolio/blob/master/images/screenshot.jpg?raw=true)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
