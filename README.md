@@ -70,9 +70,9 @@ The demonestraed website can be used as a hub to host a portfolio of your works 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Mo Pishdar - mohpish@gmail.com
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: https://github.com/Mohammad-Pishdar/responsive-portfolio
 
 
 
