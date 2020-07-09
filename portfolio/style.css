@@ -6,6 +6,10 @@ html {
 body {
     margin-bottom: 60px;
     /* Margin bottom by footer height */
+    background-image: url('../images/background-4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container {
@@ -122,16 +126,17 @@ body {
 }
 
 .ch-img-1 {
-    background-image: url(../images/rock-paper-scissor.jpg);
+    background-image: url(../images/job-search-app.jpg);
 }
 
 .ch-img-2 {
-    background-image: url(../images/text-based-adventure-game.jpg);
+    background-image: url(../images/weather-app.jpg);
 }
 
 .ch-img-3 {
-    background-image: url(../images/pixel-art-maker.jpg);
+    background-image: url(../images/quiz.jpg);
 }
+
 
 .ch-info h4 {
     font-family: 'Niconne-Regular';
