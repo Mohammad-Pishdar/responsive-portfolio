@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/2d3fd69958.js"></script>
 
     <title>Mo Pishdar's Portfolio</title>
 
@@ -17,8 +19,9 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
-        <a class="navbar-brand bg-info p-3 text-white" href="index.html">Mo Pishdar</a>
+    <nav class="navbar navbar-expand-lg navbar-light py-0"
+        style="font-family: 'Playfair Display', serif; background-image:  linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);">
+        <a class="navbar-brand p-4" style="background-color: #a16e83; color: #19181a" href="index.html">Mo Pishdar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,9 +45,10 @@
     </nav>
     <!-- End of Navbar -->
     <!-- Main content -->
-    <div class="container">
-        <h1 class="header">About Me</h1>
-        <hr>
+    <div class="container rounded mt-5"
+        style="background-image:linear-gradient(to right, rgba(8,8,8,1) 0%, rgba(8,8,8,1) 0%, rgba(74,70,7,1) 100%); color:#ffe400">
+        <h1 class="header" style="color:#14a76c">About Me</h1>
+        <hr style="background-color:#ff652f">
         <div class="row">
             <div class="col-sm-8">
                 <div class="row">
@@ -68,9 +72,17 @@
     </div>
     <!-- End of main content  -->
     <!-- Footer  -->
-    <footer class="footer text-center">
-        <div class="container">
-            <span class="text-white">&copy;2020 Mo Pishdar Using Bootstrap</span>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <ul>
+                <li class="m-1"><span class="text-white" style="font-family: 'Playfair Display', serif;">&copy;2020 Mo
+                        Pishdar</span></li>
+                <li><a href="https://github.com/Mohammad-Pishdar" target="_blank"><i
+                            class="fa fa-github-square fa-2x"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mohammadpishdar/" target="_blank"><i
+                            class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+            </ul>
         </div>
     </footer>
     <!-- End of footer  -->
