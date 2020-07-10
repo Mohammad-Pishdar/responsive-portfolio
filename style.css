@@ -5,7 +5,7 @@ html {
 
 body {
     min-height: 1050px;
-    margin-bottom: 60px;
+    margin-bottom: 3.42857rem;
     clear: both;
     font-size: 16px;
     /* Margin bottom by footer height */
@@ -68,6 +68,13 @@ li {
     }
 
     body {
-        font-size: 1.2vw;
+        min-height: 1050px;
     }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        text-align: center;
+    }
+
 }
