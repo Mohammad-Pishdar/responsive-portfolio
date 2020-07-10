@@ -43,6 +43,12 @@ li {
     justify-content: center;
 }
 
+.linksContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .fa {
     color: white !important;
 }
