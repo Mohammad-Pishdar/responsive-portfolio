@@ -4,7 +4,9 @@ html {
 }
 
 body {
+    min-height: 1050px;
     margin-bottom: 60px;
+    clear: both;
     /* Margin bottom by footer height */
     background-image: url('images/background-4.jpg');
     background-repeat: no-repeat;
