@@ -13,7 +13,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-size: 0.9rem;
 }
 
 .container {
@@ -73,6 +72,10 @@ li {
 }
 
 @media (max-width: 450px) {
+    body {
+        font-size: 14px;
+    }
+
     h3.header {
         text-align: center;
     }
