@@ -56,6 +56,11 @@ li {
     color: white !important;
 }
 
+.img-fluid{
+    width: 15%;
+    height: 15%;
+}
+
 @media (min-width: 450px) {
     li {
         float: left;
